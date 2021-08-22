@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://sprout-cooler.github.io</id>
+    <id>https://kwink.github.io</id>
     <title>酷萌时尚科技殿堂</title>
-    <updated>2021-08-22T14:15:41.274Z</updated>
+    <updated>2021-08-22T14:17:23.710Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://sprout-cooler.github.io"/>
-    <link rel="self" href="https://sprout-cooler.github.io/atom.xml"/>
+    <link rel="alternate" href="https://kwink.github.io"/>
+    <link rel="self" href="https://kwink.github.io/atom.xml"/>
     <subtitle>一个想为世界留下点什么的家伙</subtitle>
-    <logo>https://sprout-cooler.github.io/images/avatar.png</logo>
-    <icon>https://sprout-cooler.github.io/favicon.ico</icon>
+    <logo>https://kwink.github.io/images/avatar.png</logo>
+    <icon>https://kwink.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 酷萌时尚科技殿堂</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://sprout-cooler.github.io/post/hello-gridea/</id>
-        <link href="https://sprout-cooler.github.io/post/hello-gridea/">
+        <id>https://kwink.github.io/post/hello-gridea/</id>
+        <link href="https://kwink.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
