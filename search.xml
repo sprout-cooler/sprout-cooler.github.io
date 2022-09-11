@@ -115,5 +115,16 @@
     </entry>
     
     
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>喜欢的英文歌</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-BpHzmMUT" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8594368955" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
+      
+    </entry>
+    
+    
   
 </search>
