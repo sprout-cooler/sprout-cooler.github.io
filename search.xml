@@ -33,7 +33,7 @@
       <link href="/posts/7775/"/>
       <url>/posts/7775/</url>
       
-        <content type="html"><![CDATA[<h2 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h2><p>故乡：地球</p><p>职业：啥都想干</p><p>特长：啥都会点</p><h2 id="网站初心"><a href="#网站初心" class="headerlink" title="网站初心"></a>网站初心</h2><p>网站做了好多版，但是内容还是不够充实，最终还是选择了hexo+github来构建，主要是免费而且没有那么繁琐。</p><p>做网站是干嘛呢？主要是想跟广大网友们分享自己的一些观点、一些作品，喜欢的就留下来看看，不喜欢呢就离开。</p><p>如果内容能给大家带去些收获自然是好的，如果没有也是没办法的事情，毕竟才疏学浅。</p><p>总之还是希望自己的观点、作品能够给这世界带去些益处。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="自我介绍"><a href="#自我介绍" class="headerlink" title="自我介绍"></a>自我介绍</h2><p>故乡：地球</p><p>职业：啥都想干</p><p>特长：啥都会点</p><h2 id="网站初心"><a href="#网站初心" class="headerlink" title="网站初心"></a>网站初心</h2><p>网站做了好多版，但是内容还是不够充实，最终还是选择了hexo+github来构建，主要是免费而且没有那么繁琐。</p><p>做网站是干嘛呢？主要是想跟广大网友们分享自己的一些观点、一些作品，喜欢的就留下来看看，不喜欢呢就离开。</p><p>如果内容能给大家带去些收获自然是好的，如果没有也是没办法的事情，毕竟才疏学浅。</p><p>总之还是希望自己的观点、作品能够给这世界带去些益处。</p><script src="https://giscus.app/client.js"        data-repo="sprout-cooler/sprout-cooler.github.io"        data-repo-id="R_kgDOH7zyGw"        data-category="Announcements"        data-category-id="DIC_kwDOH7zyG84CRYba"        data-mapping="pathname"        data-strict="0"        data-reactions-enabled="1"        data-emit-metadata="0"        data-input-position="bottom"        data-theme="preferred_color_scheme"        data-lang="zh-CN"        data-loading="lazy"        crossorigin="anonymous"        async></script>]]></content>
       
       
       
@@ -62,6 +62,17 @@
     
     
     <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -76,28 +87,6 @@
       <title>友情链接</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>喜欢的英文歌</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-UrGYkjWt" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -122,6 +111,17 @@
       <url>/Gallery/photography/index.html</url>
       
         <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>喜欢的英文歌</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-FLNgunwY" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
