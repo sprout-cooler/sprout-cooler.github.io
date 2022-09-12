@@ -22,6 +22,8 @@
             
             <tag> 原创书籍 </tag>
             
+            <tag> 稚嫩的世界 </tag>
+            
         </tags>
       
     </entry>
@@ -51,6 +53,17 @@
     
     
     <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<p>​</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>相册</title>
       <link href="/Gallery/index.html"/>
       <url>/Gallery/index.html</url>
@@ -62,11 +75,11 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>photograhy</title>
+      <link href="/Gallery/photography/index.html"/>
+      <url>/Gallery/photography/index.html</url>
       
-        <content type="html"><![CDATA[<p>​</p>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
       
     </entry>
     
@@ -84,33 +97,22 @@
     
     
     <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>喜欢的英文歌</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-QwMJTOPJ" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>友情链接</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>喜欢的英文歌</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-nEipvJqu" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>photograhy</title>
-      <link href="/Gallery/photography/index.html"/>
-      <url>/Gallery/photography/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
       
     </entry>
     
