@@ -43,14 +43,14 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github搭建网站系列：基础教程（二）</title>
+    <title>Hexo+Github搭建网站系列：基础教程（一）</title>
     <link href="https://www.kwink.ml/posts/d760/"/>
     <id>https://www.kwink.ml/posts/d760/</id>
     <published>2022-10-03T14:52:24.000Z</published>
-    <updated>2022-12-16T12:35:39.296Z</updated>
+    <updated>2022-12-17T13:54:16.555Z</updated>
     
     
-    <summary type="html">在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，再推送到 GitHub 上完成博文的发布。</summary>
+    <summary type="html">本篇主要介绍如何搭建并将博客运行起来</summary>
     
     
     
@@ -66,14 +66,14 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github搭建网站系列：基础教程（一）</title>
+    <title>Hexo+Github搭建网站系列：基础教程（二）</title>
     <link href="https://www.kwink.ml/posts/d760/"/>
     <id>https://www.kwink.ml/posts/d760/</id>
     <published>2022-10-03T14:52:24.000Z</published>
-    <updated>2022-12-17T08:52:31.463Z</updated>
+    <updated>2022-12-16T12:35:39.296Z</updated>
     
     
-    <summary type="html">本篇主要介绍如何搭建并将博客运行起来</summary>
+    <summary type="html">在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，再推送到 GitHub 上完成博文的发布。</summary>
     
     
     
