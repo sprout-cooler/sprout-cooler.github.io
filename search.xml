@@ -4,35 +4,6 @@
   
     
     <entry>
-      <title>Hexo+Github搭建网站系列：基础教程（三）</title>
-      <link href="/posts/9572/"/>
-      <url>/posts/9572/</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2022/12/17/zbnGGV.md.png" alt="image-20221215222537719"></p><h4 id="原作者：crystal-Jerry-修改者：墨晓"><a href="#原作者：crystal-Jerry-修改者：墨晓" class="headerlink" title="原作者：crystal  Jerry  修改者：墨晓"></a>原作者：<a href="https://zhuanlan.zhihu.com/p/60578464">crystal</a>  <a href="https://butterfly.js.org/posts/21cfbf15/">Jerry</a>  修改者：<a href="https://www.kwink.ml/posts/7775/">墨晓</a></h4><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本篇主要说说怎么用hexo写博、发博</p><h2 id="1-创建博客"><a href="#1-创建博客" class="headerlink" title="1.创建博客"></a>1.创建博客</h2><p>进入博客所在目录，右键打开 Git Bash Here，创建博文：</p><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo new &quot;My New Post&quot;</span><br></pre></td></tr></table></figure><p>然后 source 文件夹中会出现一个 My New Post.md 文件，就可以使用 Markdown 编辑器在该文件中撰写文章了。</p><p>写完后运行下面代码将文章渲染并部署到 GitHub Pages 上完成发布。<strong>以后每次发布文章都是这条命令。</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><p>也可以不使用命令自己创建 .md 文件，只需在文件开头手动加入如下格式 Front-matter 即可，写完后运行 <code>hexo g</code> 和 <code>hexo d</code> 发布。</p><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World # 标题</span><br><span class="line">date: 2019/3/26 hh:mm:ss # 时间</span><br><span class="line">categories: # 分类</span><br><span class="line">- Diary</span><br><span class="line">tags: # 标签</span><br><span class="line">- PS3</span><br><span class="line">- Games</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">摘要</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">正文</span><br></pre></td></tr></table></figure><p><strong>常用命令</strong></p><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo new &quot;name&quot;       # 新建文章</span><br><span class="line">hexo new page &quot;name&quot;  # 新建页面</span><br><span class="line">hexo g                # 生成页面</span><br><span class="line">hexo d                # 部署</span><br><span class="line">hexo g -d             # 生成页面并部署</span><br><span class="line">hexo s                # 本地预览</span><br><span class="line">hexo clean            # 清除缓存和已生成的静态文件</span><br><span class="line">hexo help             # 帮助</span><br></pre></td></tr></table></figure><h2 id="2-网站设置"><a href="#2-网站设置" class="headerlink" title="2.网站设置"></a><strong>2.网站设置</strong></h2><p>包括网站名称、描述、作者、链接样式等，全部在网站目录下的 _config.yml 文件中，参考<a href="https://link.zhihu.com/?target=https://hexo.io/zh-cn/docs/configuration">官方文档</a>按需要编辑。</p><p>注意：冒号后要加一个空格！</p><h5 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h5><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">参数</span><span class="string">描述</span></span><br><span class="line"><span class="string">title</span><span class="string">网站标题</span></span><br><span class="line"><span class="string">subtitle</span><span class="string">网站副标题</span></span><br><span class="line"><span class="string">description</span><span class="string">网站描述</span></span><br><span class="line"><span class="string">keywords</span><span class="string">网站的关键词。支持多个关键词。</span></span><br><span class="line"><span class="string">author</span><span class="string">您的名字</span></span><br><span class="line"><span class="string">language</span><span class="string">网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有</span> <span class="string">zh-Hans和</span> <span class="string">zh-CN。</span></span><br><span class="line"><span class="string">timezone</span><span class="string">网站时区。Hexo</span> <span class="string">默认使用您电脑的时区。请参考</span> <span class="string">时区列表</span> <span class="string">进行设置，如</span> <span class="string">America/New_York,</span> <span class="string">Japan,</span> <span class="string">和</span> <span class="string">UTC</span> <span class="string">。一般的，对于中国大陆地区可以使用</span> <span class="string">Asia/Shanghai。</span></span><br></pre></td></tr></table></figure><h5 id="网址"><a href="#网址" class="headerlink" title="网址"></a>网址</h5><table><thead><tr><th align="left">参数</th><th align="left">描述</th><th align="left">默认值</th></tr></thead><tbody><tr><td align="left"><code>url</code></td><td align="left">网址, 必须以 <code>http://</code> 或 <code>https://</code> 开头</td><td align="left"></td></tr><tr><td align="left"><code>root</code></td><td align="left">网站根目录</td><td align="left"><code>url&#39;s pathname</code></td></tr><tr><td align="left"><code>permalink</code></td><td align="left">文章的 <a href="https://hexo.io/zh-cn/docs/permalinks">永久链接</a> 格式</td><td align="left"><code>:year/:month/:day/:title/</code></td></tr><tr><td align="left"><code>permalink_defaults</code></td><td align="left">永久链接中各部分的默认值</td><td align="left"></td></tr><tr><td align="left"><code>pretty_urls</code></td><td align="left">改写 <a href="https://hexo.io/zh-cn/docs/variables"><code>permalink</code></a> 的值来美化 URL</td><td align="left"></td></tr><tr><td align="left"><code>pretty_urls.trailing_index</code></td><td align="left">是否在永久链接中保留尾部的 <code>index.html</code>，设置为 <code>false</code> 时去除</td><td align="left"><code>true</code></td></tr><tr><td align="left"><code>pretty_urls.trailing_html</code></td><td align="left">是否在永久链接中保留尾部的 <code>.html</code>, 设置为 <code>false</code> 时去除 (<em>对尾部的 <code>index.html</code>无效</em>)</td><td align="left"><code>true</code></td></tr></tbody></table><blockquote><p><strong>网站存放在子目录</strong></p><p>如果您的网站存放在子目录中，例如 <code>http://example.com/blog</code>，则请将您的 <code>url</code> 设为 <code>http://example.com/blog</code> 并把 <code>root</code> 设为 <code>/blog/</code>。</p></blockquote><h2 id="3-更换主题"><a href="#3-更换主题" class="headerlink" title="3.更换主题"></a><strong>3.更换主题</strong></h2><h4 id="3-1安装主题"><a href="#3-1安装主题" class="headerlink" title="3.1安装主题"></a>3.1安装主题</h4><p>在 <a href="https://link.zhihu.com/?target=https://hexo.io/themes/">Themes | Hexo</a> 选择一个喜欢的主题，比如 <a href="https://gitee.com/immyw/hexo-theme-butterfly">Butterfly</a>，进入网站根目录打开 Git Bash Here 下载主题：</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b master https://gitee.com/immyw/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure><p>然后修改根目录 _config.yml 中的 theme 为新主题名称 <a href="https://gitee.com/immyw/hexo-theme-butterfly">Butterfly</a></p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">butterfly</span></span><br></pre></td></tr></table></figure><h4 id="3-2安装插件"><a href="#3-2安装插件" class="headerlink" title="3.2安装插件"></a>3.2安装插件</h4><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">npm install hexo<span class="literal">-renderer-pug</span> hexo<span class="literal">-renderer-stylus</span> <span class="literal">--save</span></span><br></pre></td></tr></table></figure><h4 id="3-3升級建議"><a href="#3-3升級建議" class="headerlink" title="3.3升級建議"></a>3.3升級建議</h4><blockquote><p>升級完成後，請到 Github 的 Releases 界面 或者 文檔七 查看新版的更新內容。</p><p>裏面有標注 _config 文件的變更內容（如有），請根據實際情況更新你的配置內容。</p></blockquote><p>為了減少升級主題後帶來的不便，請使用以下方法（建議，可以不做）。</p><p>在 hexo 的根目錄創建一個文件 <code>_config.butterfly.yml</code>，並把主題目錄的 <code>_config.yml</code> 內容複製到 <code>_config.butterfly.yml</code> 去。( 注意: 複製的是主題的 <code>_config.yml</code> ,而不是 hexo 的 <code>_config.yml</code>)</p><blockquote><p>注意： 不要把主題目錄的<code> _config.yml</code> 刪掉</p></blockquote><blockquote><p>注意： 以後只需要在 _config.butterfly.yml進行配置就行。<br>如果使用了 _config.butterfly.yml， 配置主題的 _config.yml 將不會有效果。</p></blockquote><p>Hexo會自動合併主題中的_config.yml和 _config.butterfly.yml裏的配置，如果存在同名配置，會使用_config.butterfly.yml的配置，其優先度較高。</p><p>——-Hexo+Github搭建网站系列——-</p><p><a href="https://www.kwink.ml/posts/d760/">Hexo+Github搭建网站系列：基础教程（一）</a></p><p><a href="https://www.kwink.ml/posts/990b/">Hexo+Github搭建网站系列：基础教程（二）</a></p><p>Hexo+Github搭建网站系列：基础教程（三）</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 源代码:科技殿堂 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 网站搭建 </tag>
-            
-            <tag> Hexo+GitHub </tag>
-            
-            <tag> 源代码:科技殿堂 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>网络渗透系列：前章·跨越桎梏，畅享网络</title>
       <link href="/posts/6410/"/>
       <url>/posts/6410/</url>
@@ -54,6 +25,35 @@
             <tag> 网络渗透系列 </tag>
             
             <tag> 网络安全 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo+Github搭建网站系列：基础教程（三）</title>
+      <link href="/posts/9572/"/>
+      <url>/posts/9572/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2022/12/21/zO5mKH.png" alt="image-20221215222537719"></p><h4 id="原作者：crystal-Jerry-修改者：墨晓"><a href="#原作者：crystal-Jerry-修改者：墨晓" class="headerlink" title="原作者：crystal  Jerry  修改者：墨晓"></a>原作者：<a href="https://zhuanlan.zhihu.com/p/60578464">crystal</a>  <a href="https://butterfly.js.org/posts/21cfbf15/">Jerry</a>  修改者：<a href="https://www.kwink.ml/posts/7775/">墨晓</a></h4><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本篇主要说说怎么用hexo写博、发博</p><h2 id="1-创建博客"><a href="#1-创建博客" class="headerlink" title="1.创建博客"></a>1.创建博客</h2><p>进入博客所在目录，右键打开 Git Bash Here，创建博文：</p><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo new &quot;My New Post&quot;</span><br></pre></td></tr></table></figure><p>然后 source 文件夹中会出现一个 My New Post.md 文件，就可以使用 Markdown 编辑器在该文件中撰写文章了。</p><p>写完后运行下面代码将文章渲染并部署到 GitHub Pages 上完成发布。<strong>以后每次发布文章都是这条命令。</strong></p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><p>也可以不使用命令自己创建 .md 文件，只需在文件开头手动加入如下格式 Front-matter 即可，写完后运行 <code>hexo g</code> 和 <code>hexo d</code> 发布。</p><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World # 标题</span><br><span class="line">date: 2019/3/26 hh:mm:ss # 时间</span><br><span class="line">categories: # 分类</span><br><span class="line">- Diary</span><br><span class="line">tags: # 标签</span><br><span class="line">- PS3</span><br><span class="line">- Games</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">摘要</span><br><span class="line">&lt;!--more--&gt;</span><br><span class="line">正文</span><br></pre></td></tr></table></figure><p><strong>常用命令</strong></p><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">hexo new &quot;name&quot;       # 新建文章</span><br><span class="line">hexo new page &quot;name&quot;  # 新建页面</span><br><span class="line">hexo g                # 生成页面</span><br><span class="line">hexo d                # 部署</span><br><span class="line">hexo g -d             # 生成页面并部署</span><br><span class="line">hexo s                # 本地预览</span><br><span class="line">hexo clean            # 清除缓存和已生成的静态文件</span><br><span class="line">hexo help             # 帮助</span><br></pre></td></tr></table></figure><h2 id="2-网站设置"><a href="#2-网站设置" class="headerlink" title="2.网站设置"></a><strong>2.网站设置</strong></h2><p>包括网站名称、描述、作者、链接样式等，全部在网站目录下的 _config.yml 文件中，参考<a href="https://link.zhihu.com/?target=https://hexo.io/zh-cn/docs/configuration">官方文档</a>按需要编辑。</p><p>注意：冒号后要加一个空格！</p><h5 id="网站"><a href="#网站" class="headerlink" title="网站"></a>网站</h5><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="string">参数</span><span class="string">描述</span></span><br><span class="line"><span class="string">title</span><span class="string">网站标题</span></span><br><span class="line"><span class="string">subtitle</span><span class="string">网站副标题</span></span><br><span class="line"><span class="string">description</span><span class="string">网站描述</span></span><br><span class="line"><span class="string">keywords</span><span class="string">网站的关键词。支持多个关键词。</span></span><br><span class="line"><span class="string">author</span><span class="string">您的名字</span></span><br><span class="line"><span class="string">language</span><span class="string">网站使用的语言。对于简体中文用户来说，使用不同的主题可能需要设置成不同的值，请参考你的主题的文档自行设置，常见的有</span> <span class="string">zh-Hans和</span> <span class="string">zh-CN。</span></span><br><span class="line"><span class="string">timezone</span><span class="string">网站时区。Hexo</span> <span class="string">默认使用您电脑的时区。请参考</span> <span class="string">时区列表</span> <span class="string">进行设置，如</span> <span class="string">America/New_York,</span> <span class="string">Japan,</span> <span class="string">和</span> <span class="string">UTC</span> <span class="string">。一般的，对于中国大陆地区可以使用</span> <span class="string">Asia/Shanghai。</span></span><br></pre></td></tr></table></figure><h5 id="网址"><a href="#网址" class="headerlink" title="网址"></a>网址</h5><table><thead><tr><th align="left">参数</th><th align="left">描述</th><th align="left">默认值</th></tr></thead><tbody><tr><td align="left"><code>url</code></td><td align="left">网址, 必须以 <code>http://</code> 或 <code>https://</code> 开头</td><td align="left"></td></tr><tr><td align="left"><code>root</code></td><td align="left">网站根目录</td><td align="left"><code>url&#39;s pathname</code></td></tr><tr><td align="left"><code>permalink</code></td><td align="left">文章的 <a href="https://hexo.io/zh-cn/docs/permalinks">永久链接</a> 格式</td><td align="left"><code>:year/:month/:day/:title/</code></td></tr><tr><td align="left"><code>permalink_defaults</code></td><td align="left">永久链接中各部分的默认值</td><td align="left"></td></tr><tr><td align="left"><code>pretty_urls</code></td><td align="left">改写 <a href="https://hexo.io/zh-cn/docs/variables"><code>permalink</code></a> 的值来美化 URL</td><td align="left"></td></tr><tr><td align="left"><code>pretty_urls.trailing_index</code></td><td align="left">是否在永久链接中保留尾部的 <code>index.html</code>，设置为 <code>false</code> 时去除</td><td align="left"><code>true</code></td></tr><tr><td align="left"><code>pretty_urls.trailing_html</code></td><td align="left">是否在永久链接中保留尾部的 <code>.html</code>, 设置为 <code>false</code> 时去除 (<em>对尾部的 <code>index.html</code>无效</em>)</td><td align="left"><code>true</code></td></tr></tbody></table><blockquote><p><strong>网站存放在子目录</strong></p><p>如果您的网站存放在子目录中，例如 <code>http://example.com/blog</code>，则请将您的 <code>url</code> 设为 <code>http://example.com/blog</code> 并把 <code>root</code> 设为 <code>/blog/</code>。</p></blockquote><h2 id="3-更换主题"><a href="#3-更换主题" class="headerlink" title="3.更换主题"></a><strong>3.更换主题</strong></h2><h4 id="3-1安装主题"><a href="#3-1安装主题" class="headerlink" title="3.1安装主题"></a>3.1安装主题</h4><p>在 <a href="https://link.zhihu.com/?target=https://hexo.io/themes/">Themes | Hexo</a> 选择一个喜欢的主题，比如 <a href="https://gitee.com/immyw/hexo-theme-butterfly">Butterfly</a>，进入网站根目录打开 Git Bash Here 下载主题：</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> -b master https://gitee.com/immyw/hexo-theme-butterfly.git themes/butterfly</span><br></pre></td></tr></table></figure><p>然后修改根目录 _config.yml 中的 theme 为新主题名称 <a href="https://gitee.com/immyw/hexo-theme-butterfly">Butterfly</a></p><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">butterfly</span></span><br></pre></td></tr></table></figure><h4 id="3-2安装插件"><a href="#3-2安装插件" class="headerlink" title="3.2安装插件"></a>3.2安装插件</h4><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">npm install hexo<span class="literal">-renderer-pug</span> hexo<span class="literal">-renderer-stylus</span> <span class="literal">--save</span></span><br></pre></td></tr></table></figure><h4 id="3-3升級建議"><a href="#3-3升級建議" class="headerlink" title="3.3升級建議"></a>3.3升級建議</h4><blockquote><p>升級完成後，請到 Github 的 Releases 界面 或者 文檔七 查看新版的更新內容。</p><p>裏面有標注 _config 文件的變更內容（如有），請根據實際情況更新你的配置內容。</p></blockquote><p>為了減少升級主題後帶來的不便，請使用以下方法（建議，可以不做）。</p><p>在 hexo 的根目錄創建一個文件 <code>_config.butterfly.yml</code>，並把主題目錄的 <code>_config.yml</code> 內容複製到 <code>_config.butterfly.yml</code> 去。( 注意: 複製的是主題的 <code>_config.yml</code> ,而不是 hexo 的 <code>_config.yml</code>)</p><blockquote><p>注意： 不要把主題目錄的<code> _config.yml</code> 刪掉</p></blockquote><blockquote><p>注意： 以後只需要在 _config.butterfly.yml進行配置就行。<br>如果使用了 _config.butterfly.yml， 配置主題的 _config.yml 將不會有效果。</p></blockquote><p>Hexo會自動合併主題中的_config.yml和 _config.butterfly.yml裏的配置，如果存在同名配置，會使用_config.butterfly.yml的配置，其優先度較高。</p><p>——-Hexo+Github搭建网站系列——-</p><p><a href="https://www.kwink.ml/posts/d760/">Hexo+Github搭建网站系列：基础教程（一）</a></p><p><a href="https://www.kwink.ml/posts/990b/">Hexo+Github搭建网站系列：基础教程（二）</a></p><p><a href="https://www.kwink.ml/posts/9572/">Hexo+Github搭建网站系列：基础教程（三）</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 源代码:科技殿堂 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网站搭建 </tag>
+            
+            <tag> Hexo+GitHub </tag>
+            
+            <tag> 源代码:科技殿堂 </tag>
             
         </tags>
       
@@ -196,11 +196,11 @@
     
     
     <entry>
-      <title>相册</title>
-      <link href="/Gallery/index.html"/>
-      <url>/Gallery/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/Gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">摄影作品</div>  <p>关于OH MY GIRL的图片</p>  <a href='/Gallery/photography'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -210,17 +210,6 @@
       <title>游戏</title>
       <link href="/game/index.html"/>
       <url>/game/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -240,11 +229,11 @@
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>相册</title>
+      <link href="/Gallery/index.html"/>
+      <url>/Gallery/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/Gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">摄影作品</div>  <p>关于OH MY GIRL的图片</p>  <a href='/Gallery/photography'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -255,7 +244,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-smEgDzBb" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-aeDbcWSM" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-ReBwGySw" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-QdRMpKSw" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
@@ -265,6 +254,17 @@
       <title>tags</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
