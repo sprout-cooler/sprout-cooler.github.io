@@ -6,7 +6,7 @@
   <link href="https://www.kwink.ml/atom.xml" rel="self"/>
   
   <link href="https://www.kwink.ml/"/>
-  <updated>2022-12-18T07:34:50.092Z</updated>
+  <updated>2022-12-21T05:15:06.385Z</updated>
   <id>https://www.kwink.ml/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo+Github搭建网站系列：基础教程（三）</title>
+    <link href="https://www.kwink.ml/posts/9572/"/>
+    <id>https://www.kwink.ml/posts/9572/</id>
+    <published>2022-12-21T04:02:39.003Z</published>
+    <updated>2022-12-21T05:15:06.385Z</updated>
+    
+    
+    <summary type="html">本篇主要说说怎么用hexo写博、发博</summary>
+    
+    
+    
+    <category term="源代码:科技殿堂" scheme="https://www.kwink.ml/categories/%E6%BA%90%E4%BB%A3%E7%A0%81-%E7%A7%91%E6%8A%80%E6%AE%BF%E5%A0%82/"/>
+    
+    
+    <category term="网站搭建" scheme="https://www.kwink.ml/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Hexo+GitHub" scheme="https://www.kwink.ml/tags/Hexo-GitHub/"/>
+    
+    <category term="源代码:科技殿堂" scheme="https://www.kwink.ml/tags/%E6%BA%90%E4%BB%A3%E7%A0%81-%E7%A7%91%E6%8A%80%E6%AE%BF%E5%A0%82/"/>
+    
+  </entry>
   
   <entry>
     <title>网络渗透系列：前章·跨越桎梏，畅享网络</title>
