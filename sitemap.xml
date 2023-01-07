@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.kwink.ml/tags/index.html</loc>
+    
+    <lastmod>2023-01-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kwink.ml/categories/index.html</loc>
+    
+    <lastmod>2023-01-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.kwink.ml/posts/990b/</loc>
     
     <lastmod>2022-12-21</lastmod>
@@ -118,24 +136,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://www.kwink.ml/categories/index.html</loc>
-    
-    <lastmod>2022-09-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.kwink.ml/tags/index.html</loc>
-    
-    <lastmod>2022-09-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://www.kwink.ml/</loc>
@@ -167,6 +167,13 @@
   </url>
   
   <url>
+    <loc>https://www.kwink.ml/tags/%E4%BB%8B%E7%BB%8D/</loc>
+    <lastmod>2023-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.kwink.ml/tags/%E5%8E%9F%E5%88%9B%E4%B9%A6%E7%B1%8D/</loc>
     <lastmod>2023-01-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -189,13 +196,6 @@
   
   <url>
     <loc>https://www.kwink.ml/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2023-01-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.kwink.ml/tags/%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2023-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
