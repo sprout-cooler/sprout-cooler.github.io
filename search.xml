@@ -66,7 +66,7 @@
       <link href="/posts/990b/"/>
       <url>/posts/990b/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2023/01/07/pSVnjJJ.png" alt="image-20221215222537719"></p><h4 id="原作者：crystal-修改者：墨晓"><a href="#原作者：crystal-修改者：墨晓" class="headerlink" title="原作者：crystal 修改者：墨晓"></a>原作者：<a href="https://zhuanlan.zhihu.com/p/60578464">crystal</a> 修改者：<a href="https://www.kwink.ml/posts/7775/">墨晓</a></h4><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本篇主要来点稍微高级的域名配置</p><h2 id="1-绑定域名（可选，还是有为好）"><a href="#1-绑定域名（可选，还是有为好）" class="headerlink" title="1.绑定域名（可选，还是有为好）"></a>1.绑定域名（可选，还是有为好）</h2><h4 id="1-1前提准备"><a href="#1-1前提准备" class="headerlink" title="1.1前提准备"></a>1.1前提准备</h4><ul><li><a href="https://iyideng.net/welfare/freenom-free-domain-register.html#:~:text=2%E3%80%81%E6%B3%A8%E5%86%8C%20Freenom%20%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%201%20%EF%BC%881%EF%BC%89%E6%A3%80%E6%9F%A5%E5%9F%9F%E5%90%8D%E6%98%AF%E5%90%A6%E5%8F%AF%E7%94%A8%20%E7%8E%B0%E5%9C%A8%E6%88%91%E4%BB%AC%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%85%A5%E5%9F%9F%E5%90%8D%E4%B9%8B%E5%90%8E%EF%BC%8C%E5%9C%A8%E8%8E%B7%E5%8F%96%E5%9F%9F%E5%90%8D%E7%9A%84%E6%97%B6%E5%80%99%E5%BE%80%E5%BE%80%E6%97%A0%E6%B3%95%E9%80%9A%E8%BF%87%EF%BC%8C%E4%BD%86%E6%98%AF%E6%88%91%E4%BB%AC%E5%9C%A8%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%85%A5%E5%AE%8C%E6%95%B4%E5%9F%9F%E5%90%8D%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8C%E7%84%B6%E5%90%8E%E7%82%B9%E5%87%BB%E2%80%9C%E6%A3%80%E6%9F%A5%E5%8F%AF%E7%94%A8%E6%80%A7%E2%80%9D%EF%BC%8C%E5%B0%B1%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E8%B7%B3%E8%BD%AC%E5%88%B0%E9%80%9A%E8%BF%87%E5%88%A4%E5%AE%9A%E7%9A%84%E9%A1%B5%E9%9D%A2%EF%BC%8C%E8%BF%99%E6%A0%B7%E5%B0%B1%E8%B7%B3%E8%BF%87%E4%BA%86%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E5%9C%B0%E5%8C%BA%E7%9A%84IP%E6%A3%80%E6%B5%8B%EF%BC%8C%E6%98%BE%E7%A4%BA%E2%80%9C%20%E6%98%AF%20ixxxxxw.cf%E5%8F%AF%E7%94%A8%21,%EF%BC%883%EF%BC%89%E5%AE%8C%E6%88%90Freenom%E8%B4%A6%E6%88%B7%E6%B3%A8%E5%86%8C%E5%92%8C%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%20%E7%84%B6%E5%90%8E%E9%80%89%E6%8B%A9%E2%80%9CContinue%E2%80%9D%EF%BC%8C%E8%BF%9B%E5%85%A5%E2%80%9CReview%20%26%20Checkout%E2%80%9D%E9%A1%B5%E9%9D%A2%E3%80%82%20...%204%20%EF%BC%884%EF%BC%89%E7%AE%A1%E7%90%86Freenom%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%20">使用freenom注册域名</a>（可能需用<a href="https://www.kwink.ml/posts/6410/">梯子</a>）</li><li>不用看CloudFlare配置</li></ul><h4 id="1-2解析DNS记录"><a href="#1-2解析DNS记录" class="headerlink" title="1.2解析DNS记录"></a>1.2解析DNS记录</h4><h5 id="1-2-1DNS转发"><a href="#1-2-1DNS转发" class="headerlink" title="1.2.1DNS转发"></a>1.2.1DNS转发</h5><h6 id="注册并登录CloudNS"><a href="#注册并登录CloudNS" class="headerlink" title="注册并登录CloudNS"></a>注册并登录<a href="https://www.cloudns.net/">CloudNS</a></h6><h6 id="创建域"><a href="#创建域" class="headerlink" title="创建域"></a>创建域</h6><p><img src="https://s1.ax1x.com/2022/12/20/zO8DOI.png" alt="image-20221220212317974"></p><h6 id="输入之前注册的域名"><a href="#输入之前注册的域名" class="headerlink" title="输入之前注册的域名"></a>输入之前注册的域名</h6><p><img src="https://s1.ax1x.com/2022/12/20/zO8Rfg.png" alt="image-20221220213609614"></p><h6 id="查看并复制图中标识位置"><a href="#查看并复制图中标识位置" class="headerlink" title="查看并复制图中标识位置"></a>查看并复制图中标识位置</h6><p><img src="https://s1.ax1x.com/2022/12/20/zOGQN8.png" alt="image-20221220213858840"></p><h6 id="转到并登录freenom"><a href="#转到并登录freenom" class="headerlink" title="转到并登录freenom"></a>转到并登录<a href="https://my.freenom.com/">freenom</a></h6><p><img src="https://s1.ax1x.com/2022/12/20/zOGMAf.png" alt="image-20221220214052761"></p><h6 id="域名配置DNS转发"><a href="#域名配置DNS转发" class="headerlink" title="域名配置DNS转发"></a>域名配置DNS转发</h6><p><img src="https://s1.ax1x.com/2022/12/20/zOGNBq.png" alt="image-20221220214521206"></p><p><img src="https://s1.ax1x.com/2022/12/20/zOGJjs.png" alt="image-20221220214551380"></p><p><img src="https://s1.ax1x.com/2022/12/20/zOGtun.png" alt="image-20221220214635775"></p><p>转到Cloudns域名管理界面，进行DNS验证</p><p><img src="https://s1.ax1x.com/2022/12/20/zOYVeI.png" alt="image-20221220221008082"></p><h5 id="1-2-2域名绑定"><a href="#1-2-2域名绑定" class="headerlink" title="1.2.2域名绑定"></a>1.2.2域名绑定</h5><h6 id="返回github库-自定义域名"><a href="#返回github库-自定义域名" class="headerlink" title="返回github库,自定义域名"></a>返回github库,自定义域名</h6><p><img src="https://s1.ax1x.com/2022/12/20/zOYAOA.png" alt="image-20221220222100435"></p><p>根据<a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages">Github提示</a>转到CloudNS域管理面板,添加DNS验证</p><p>然后就可以用域名访问你的网站了</p><h2 id="2-域名HTTP配置"><a href="#2-域名HTTP配置" class="headerlink" title="2.域名HTTP配置"></a>2.域名HTTP配置</h2><p>配置自己的域名后，需要我们手动开启 HTTPS。打开博客所在 GitHub 仓库，Settings -&gt; 下拉找到 GitHub Pages -&gt; 勾选 Enforce HTTPS。</p><p><img src="https://s1.ax1x.com/2022/12/20/zOYkyd.png" alt="image-20221220224623575"></p><p>HTTPS 证书部署成功需要一定时间，等大概几分钟再访问域名，就可以看到域名前面的小绿锁了，HTTPS 配置完成！</p><p>——-Hexo+Github搭建网站系列——-</p><p><a href="https://www.kwink.ml/posts/d760/">Hexo+Github搭建网站系列：基础教程（一）</a></p><p><a href="https://www.kwink.ml/posts/990b/">Hexo+Github搭建网站系列：基础教程（二）</a></p>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2023/01/08/pSVzWfU.png" alt="image-20221215222537719"></p><h4 id="原作者：crystal-修改者：墨晓"><a href="#原作者：crystal-修改者：墨晓" class="headerlink" title="原作者：crystal 修改者：墨晓"></a>原作者：<a href="https://zhuanlan.zhihu.com/p/60578464">crystal</a> 修改者：<a href="https://www.kwink.ml/posts/7775/">墨晓</a></h4><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本篇主要来点稍微高级的域名配置</p><h2 id="1-绑定域名（可选，还是有为好）"><a href="#1-绑定域名（可选，还是有为好）" class="headerlink" title="1.绑定域名（可选，还是有为好）"></a>1.绑定域名（可选，还是有为好）</h2><h4 id="1-1前提准备"><a href="#1-1前提准备" class="headerlink" title="1.1前提准备"></a>1.1前提准备</h4><ul><li><a href="https://iyideng.net/welfare/freenom-free-domain-register.html#:~:text=2%E3%80%81%E6%B3%A8%E5%86%8C%20Freenom%20%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%201%20%EF%BC%881%EF%BC%89%E6%A3%80%E6%9F%A5%E5%9F%9F%E5%90%8D%E6%98%AF%E5%90%A6%E5%8F%AF%E7%94%A8%20%E7%8E%B0%E5%9C%A8%E6%88%91%E4%BB%AC%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%85%A5%E5%9F%9F%E5%90%8D%E4%B9%8B%E5%90%8E%EF%BC%8C%E5%9C%A8%E8%8E%B7%E5%8F%96%E5%9F%9F%E5%90%8D%E7%9A%84%E6%97%B6%E5%80%99%E5%BE%80%E5%BE%80%E6%97%A0%E6%B3%95%E9%80%9A%E8%BF%87%EF%BC%8C%E4%BD%86%E6%98%AF%E6%88%91%E4%BB%AC%E5%9C%A8%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%85%A5%E5%AE%8C%E6%95%B4%E5%9F%9F%E5%90%8D%E7%9A%84%E6%97%B6%E5%80%99%EF%BC%8C%E7%84%B6%E5%90%8E%E7%82%B9%E5%87%BB%E2%80%9C%E6%A3%80%E6%9F%A5%E5%8F%AF%E7%94%A8%E6%80%A7%E2%80%9D%EF%BC%8C%E5%B0%B1%E5%8F%AF%E4%BB%A5%E7%9B%B4%E6%8E%A5%E8%B7%B3%E8%BD%AC%E5%88%B0%E9%80%9A%E8%BF%87%E5%88%A4%E5%AE%9A%E7%9A%84%E9%A1%B5%E9%9D%A2%EF%BC%8C%E8%BF%99%E6%A0%B7%E5%B0%B1%E8%B7%B3%E8%BF%87%E4%BA%86%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E5%9C%B0%E5%8C%BA%E7%9A%84IP%E6%A3%80%E6%B5%8B%EF%BC%8C%E6%98%BE%E7%A4%BA%E2%80%9C%20%E6%98%AF%20ixxxxxw.cf%E5%8F%AF%E7%94%A8%21,%EF%BC%883%EF%BC%89%E5%AE%8C%E6%88%90Freenom%E8%B4%A6%E6%88%B7%E6%B3%A8%E5%86%8C%E5%92%8C%E5%9F%9F%E5%90%8D%E7%94%B3%E8%AF%B7%20%E7%84%B6%E5%90%8E%E9%80%89%E6%8B%A9%E2%80%9CContinue%E2%80%9D%EF%BC%8C%E8%BF%9B%E5%85%A5%E2%80%9CReview%20%26%20Checkout%E2%80%9D%E9%A1%B5%E9%9D%A2%E3%80%82%20...%204%20%EF%BC%884%EF%BC%89%E7%AE%A1%E7%90%86Freenom%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D%20">使用freenom注册域名</a>（可能需用<a href="https://www.kwink.ml/posts/6410/">梯子</a>）</li><li>不用看CloudFlare配置</li></ul><h4 id="1-2解析DNS记录"><a href="#1-2解析DNS记录" class="headerlink" title="1.2解析DNS记录"></a>1.2解析DNS记录</h4><h5 id="1-2-1DNS转发"><a href="#1-2-1DNS转发" class="headerlink" title="1.2.1DNS转发"></a>1.2.1DNS转发</h5><h6 id="注册并登录CloudNS"><a href="#注册并登录CloudNS" class="headerlink" title="注册并登录CloudNS"></a>注册并登录<a href="https://www.cloudns.net/">CloudNS</a></h6><h6 id="创建域"><a href="#创建域" class="headerlink" title="创建域"></a>创建域</h6><p><img src="https://s1.ax1x.com/2022/12/20/zO8DOI.png" alt="image-20221220212317974"></p><h6 id="输入之前注册的域名"><a href="#输入之前注册的域名" class="headerlink" title="输入之前注册的域名"></a>输入之前注册的域名</h6><p><img src="https://s1.ax1x.com/2022/12/20/zO8Rfg.png" alt="image-20221220213609614"></p><h6 id="查看并复制图中标识位置"><a href="#查看并复制图中标识位置" class="headerlink" title="查看并复制图中标识位置"></a>查看并复制图中标识位置</h6><p><img src="https://s1.ax1x.com/2022/12/20/zOGQN8.png" alt="image-20221220213858840"></p><h6 id="转到并登录freenom"><a href="#转到并登录freenom" class="headerlink" title="转到并登录freenom"></a>转到并登录<a href="https://my.freenom.com/">freenom</a></h6><p><img src="https://s1.ax1x.com/2022/12/20/zOGMAf.png" alt="image-20221220214052761"></p><h6 id="域名配置DNS转发"><a href="#域名配置DNS转发" class="headerlink" title="域名配置DNS转发"></a>域名配置DNS转发</h6><p><img src="https://s1.ax1x.com/2022/12/20/zOGNBq.png" alt="image-20221220214521206"></p><p><img src="https://s1.ax1x.com/2022/12/20/zOGJjs.png" alt="image-20221220214551380"></p><p><img src="https://s1.ax1x.com/2022/12/20/zOGtun.png" alt="image-20221220214635775"></p><p>转到Cloudns域名管理界面，进行DNS验证</p><p><img src="https://s1.ax1x.com/2022/12/20/zOYVeI.png" alt="image-20221220221008082"></p><h5 id="1-2-2域名绑定"><a href="#1-2-2域名绑定" class="headerlink" title="1.2.2域名绑定"></a>1.2.2域名绑定</h5><h6 id="返回github库-自定义域名"><a href="#返回github库-自定义域名" class="headerlink" title="返回github库,自定义域名"></a>返回github库,自定义域名</h6><p><img src="https://s1.ax1x.com/2022/12/20/zOYAOA.png" alt="image-20221220222100435"></p><p>根据<a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages">Github提示</a>转到CloudNS域管理面板,添加DNS验证</p><p>然后就可以用域名访问你的网站了</p><h2 id="2-域名HTTP配置"><a href="#2-域名HTTP配置" class="headerlink" title="2.域名HTTP配置"></a>2.域名HTTP配置</h2><p>配置自己的域名后，需要我们手动开启 HTTPS。打开博客所在 GitHub 仓库，Settings -&gt; 下拉找到 GitHub Pages -&gt; 勾选 Enforce HTTPS。</p><p><img src="https://s1.ax1x.com/2022/12/20/zOYkyd.png" alt="image-20221220224623575"></p><p>HTTPS 证书部署成功需要一定时间，等大概几分钟再访问域名，就可以看到域名前面的小绿锁了，HTTPS 配置完成！</p><p>——-Hexo+Github搭建网站系列——-</p><p><a href="https://www.kwink.ml/posts/d760/">Hexo+Github搭建网站系列：基础教程（一）</a></p><p><a href="https://www.kwink.ml/posts/990b/">Hexo+Github搭建网站系列：基础教程（二）</a></p>]]></content>
       
       
       <categories>
@@ -166,6 +166,33 @@
     
     
     <entry>
+      <title>网络食用指南</title>
+      <link href="/posts/9dfc/"/>
+      <url>/posts/9dfc/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2022/10/03/xQ6AzD.png"></p><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>本网站利用<a href="https://hexo.io/zh-cn/index.html">hexo</a>+<a href="https://pages.github.com/">github pages</a>进行免费搭建，使用<a href="https://butterfly.js.org/posts/21cfbf15/">butterfly</a>主题;</p><p>如果各位需要自行搭建，可以看本网站的相关教程</p><p><a href="https://www.kwink.ml/posts/d760/">Hexo+Github搭建网站系列：基础教程（一）</a></p><p>虽然使用的github pages为外网环境，但借助<a href="https://www.cloudns.net/">CloudNS</a>进行DNS配置，国内访问也比较流畅，如果遇到访问非常缓慢，可以借助这篇文章中介绍的工具并通过私聊工具联系我。</p><p><a href="https://www.kwink.ml/posts/6410/">网络渗透系列：前章·跨越桎梏，畅享网络</a></p><h2 id="网站功能"><a href="#网站功能" class="headerlink" title="网站功能"></a>网站功能</h2><h3 id="导航栏"><a href="#导航栏" class="headerlink" title="导航栏"></a>导航栏</h3><div class="tabs" id="导航栏"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#导航栏-1"><i class="fas fa-magnifying-glass"></i>搜索</button></li><li class="tab"><button type="button" data-href="#导航栏-2"><i class="fas fa-home"></i>首页</button></li><li class="tab"><button type="button" data-href="#导航栏-3"><i class="fas fa-timeline"></i>时间轴</button></li><li class="tab"><button type="button" data-href="#导航栏-4"><i class="fas fa-tags"></i>标签</button></li><li class="tab"><button type="button" data-href="#导航栏-5"><i class="as fa-folder-open"></i>分类</button></li><li class="tab"><button type="button" data-href="#导航栏-6"><i class="fas fa-list"></i>娱乐</button></li><li class="tab"><button type="button" data-href="#导航栏-7"><i class="fas fa-link"></i>友链</button></li><li class="tab"><button type="button" data-href="#导航栏-8"><i class="fas fa-train-subway"></i>开往</button></li><li class="tab"><button type="button" data-href="#导航栏-9"><i class="fas fa-heart"></i>关于</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="导航栏-1"><p><img src="C:\Users\Administrator\Pictures\typora\网站食用\image-20230108150857741.png" alt="image-20230108150857741"></p><p>输入关键词，即可显示相关博客文章，找到所需文章，单击即可进入</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-2"><p><img src="C:\Users\Administrator\Pictures\typora\网站食用\image-20230108151332210.png" alt="image-20230108151332210"></p><p>访问<a href="https://kwink.ml/">网站</a>默认显示首页,向下滑动滚轮即可访问更多内容</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-3"><p><img src="C:\Users\Administrator\Pictures\typora\网站食用\image-20230108151520435.png" alt="image-20230108151520435"></p><p>按文章时间顺序进行倒序排列</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-4"><p><img src="C:\Users\Administrator\Pictures\typora\网站食用\image-20230108153541923.png" alt="image-20230108153541923"></p><p>单击标签可快速访问相关内容</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-5"><p><img src="C:\Users\Administrator\Pictures\typora\网站食用\image-20230108153623956.png" alt="image-20230108153623956"></p><p>所见即所得</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-6"><div class="tabs" id="娱乐"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#娱乐-1"><i class="fas fa-music"></i>音乐</button></li><li class="tab"><button type="button" data-href="#娱乐-2"><i class="fas fa-images"></i>相册</button></li><li class="tab"><button type="button" data-href="#娱乐-3"><i class="fas fa-video"></i>电影</button></li><li class="tab"><button type="button" data-href="#娱乐-4"><i class="fa fa-gamepad"></i>游戏</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="娱乐-1"><p><img src="C:\Users\Administrator\Pictures\typora\网站食用\image-20230108153701839.png" alt="image-20230108153701839"></p><p>本页面可播放，但仅限于本页面播放</p><p>网站对应提供音乐悬浮窗，可跨页播放（同一标签页）</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="娱乐-2"><p><strong>tab名字為第一個Tab</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="娱乐-3"><p><strong>tab名字為第一個Tab</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="娱乐-4"><p><strong>tab名字為第一個Tab</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-7"><p><strong>名字+icon</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-8"><p><strong>名字+icon</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-9"><p><strong>名字+icon</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="你是不是看到了真相？"><a href="#你是不是看到了真相？" class="headerlink" title="你是不是看到了真相？"></a>你是不是看到了真相？</h2><p>有人喜欢用”价值观不同论”来曲解邪恶，有人喜欢用”多数即正义”来惩戒弱小，我们经历了那么多苦难，却仍在重蹈覆辙。</p><p>总有一些事情被故意忽视，”未成年人暴力事件、网络口诛笔伐”，连政府都已经学会了利用网络舆论煽风点火，只流于喊话而非证据。三人成虎、五人成林，真相似乎在这个时代显得不那么重要，人们习惯了翻翻手机就能了解世界，不会想到这个世界并没有那么小，更不会想到手机里的世界可能只是别人编织好的空幻世界。</p><p>“伸手即可触摸到的，都不一定是真实的。你叫我如何去探寻真相？”我也一度陷入不知何为真相的恐慌之中，不知道如何去辩识、去探寻，身不由己难以踏上征程，去贴近现实探索真相。目前，我更喜欢”良知论”，即凭良心而言，这件事谁对谁错。这时，法律可能会显得不那么重要。因为你连一点恶意都不敢发出，又怎么会去触碰那庄严的法律？</p><p>有些中国人喜欢咬文嚼字，因为他们知道一字之差便可愚弄他人。所谓”失之毫厘，差之千里。”但是他们往往会忘记，”人们并非闭上了眼睛，他们只是还没有睡醒。””觉醒的雄狮，可踏九州，震万世。”少数人，挥舞着权杖，鼓动着人们去自相残杀，他们在煽动恶意。恶意，从来就不受控，它一旦被释放，便会肆虐，无所谓权贵或者平凡。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 稚嫩的世界 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 原创书籍 </tag>
+            
+            <tag> 稚嫩的世界 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>前言不搭后语</title>
       <link href="/posts/26948/"/>
       <url>/posts/26948/</url>
@@ -207,42 +234,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-DWyxhvMM" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-EbFsiFUq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<p>​</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -262,9 +256,53 @@
     
     
     <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<p>​</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>友情链接</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>影视</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-rLgzdsAD" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-oDgITnWt" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
