@@ -1,3 +1,4 @@
+https://www.kwink.ml/game/index.html
 https://www.kwink.ml/movies/index.html
 https://www.kwink.ml/posts/9dfc/
 https://www.kwink.ml/posts/990b/
@@ -6,7 +7,6 @@ https://www.kwink.ml/tags/index.html
 https://www.kwink.ml/categories/index.html
 https://www.kwink.ml/posts/d760/
 https://www.kwink.ml/posts/6410/
-https://www.kwink.ml/game/index.html
 https://www.kwink.ml/Gallery/index.html
 https://www.kwink.ml/posts/7775/
 https://www.kwink.ml/link/index.html
