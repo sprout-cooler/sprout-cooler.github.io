@@ -8,7 +8,7 @@
       <link href="/posts/4b77/"/>
       <url>/posts/4b77/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2022/10/03/xQ6AzD.png"></p><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>本网站利用<a href="https://hexo.io/zh-cn/index.html">hexo</a>+<a href="https://pages.github.com/">github pages</a>进行免费搭建，使用<a href="https://butterfly.js.org/posts/21cfbf15/">butterfly</a>主题;</p><p>如果各位需要自行搭建，可以看本网站的相关教程</p><p><a href="https://www.kwink.ml/posts/d760/">Hexo+Github搭建网站系列：基础教程（一）</a></p><p>虽然使用的github pages为外网环境，但借助<a href="https://www.cloudns.net/">CloudNS</a>进行DNS配置，国内访问也比较流畅，如果遇到访问非常缓慢，可以借助这篇文章中介绍的工具并通过私聊工具联系我。</p><p><a href="https://www.kwink.ml/posts/6410/">网络渗透系列：前章·跨越桎梏，畅享网络</a></p><h2 id="网站功能"><a href="#网站功能" class="headerlink" title="网站功能"></a>网站功能</h2><h3 id="导航栏"><a href="#导航栏" class="headerlink" title="导航栏"></a>导航栏</h3><div class="tabs" id="导航栏"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#导航栏-1"><i class="fas fa-magnifying-glass"></i>搜索</button></li><li class="tab"><button type="button" data-href="#导航栏-2"><i class="fas fa-home"></i>首页</button></li><li class="tab"><button type="button" data-href="#导航栏-3"><i class="fas fa-timeline"></i>时间轴</button></li><li class="tab"><button type="button" data-href="#导航栏-4"><i class="fas fa-tags"></i>标签</button></li><li class="tab"><button type="button" data-href="#导航栏-5"><i class="fas fa-folder-open"></i>分类</button></li><li class="tab"><button type="button" data-href="#导航栏-6"><i class="fas fa-list"></i>娱乐</button></li><li class="tab"><button type="button" data-href="#导航栏-7"><i class="fas fa-link"></i>友链</button></li><li class="tab"><button type="button" data-href="#导航栏-8"><i class="fas fa-train-subway"></i>开往</button></li><li class="tab"><button type="button" data-href="#导航栏-9"><i class="fas fa-heart"></i>关于</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="导航栏-1"><p><img src="https://s1.ax1x.com/2023/01/08/pSZd0de.png" alt="image-20230108150857741"></p><p>输入关键词，即可显示相关博客文章，找到所需文章，单击即可进入</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-2"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdRL8.png" alt="image-20230108151332210"></p><p>访问<a href="https://kwink.ml/">网站</a>默认显示首页,向下滑动滚轮即可访问更多内容</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-3"><p><img src="https://s1.ax1x.com/2023/01/08/pSZd6zt.png" alt="image-20230108151520435"></p><p>按文章时间顺序进行倒序排列</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-4"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdyRI.png" alt="image-20230108153541923"></p><p>单击标签可快速访问相关内容</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-5"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdgQP.png" alt="image-20230108153623956"></p><p>所见即所得</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-6"><div class="tabs" id="娱乐"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#娱乐-1"><i class="fas fa-music"></i>音乐</button></li><li class="tab"><button type="button" data-href="#娱乐-2"><i class="fas fa-images"></i>相册</button></li><li class="tab"><button type="button" data-href="#娱乐-3"><i class="fas fa-video"></i>影视</button></li><li class="tab"><button type="button" data-href="#娱乐-4"><i class="fa fa-gamepad"></i>游戏</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="娱乐-1"><p><img src="https://s1.ax1x.com/2023/01/08/pSZd2sf.png" alt="image-20230108153701839"></p><p>本页面可播放，但仅限于本页面播放</p><p>网站对应提供音乐悬浮窗（带歌词喔），可跨页播放（同一标签页）</p><p><img src="https://s1.ax1x.com/2023/01/08/pSZdfeS.png" alt="image-20230108183037882"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="娱乐-2"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdsJA.png" alt="image-20230108183124075"></p><p>一些作品和收藏</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="娱乐-3"><p>还没有做呢</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="娱乐-4"><p>出bug了，修复中</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-7"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdBIH.png" alt="image-20230108221816078"></p><p>友情链接，后面也会写篇友情链接申请的文章</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-8"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdrid.png" alt="image-20230108221933588"></p><p>友情链接升级版</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-9"><p>还没有内容</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h3 id="文章栏"><a href="#文章栏" class="headerlink" title="文章栏"></a>文章栏</h3>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2023/01/09/pSerwfe.png"></p><h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>本网站利用<a href="https://hexo.io/zh-cn/index.html">hexo</a>+<a href="https://pages.github.com/">github pages</a>进行免费搭建，使用<a href="https://butterfly.js.org/posts/21cfbf15/">butterfly</a>主题;</p><p>如果各位需要自行搭建，可以看本网站的相关教程</p><p><a href="https://www.kwink.ml/posts/d760/">Hexo+Github搭建网站系列：基础教程（一）</a></p><p>虽然使用的github pages为外网环境，但借助<a href="https://www.cloudns.net/">CloudNS</a>进行DNS配置，国内访问也比较流畅，如果遇到访问非常缓慢，可以借助这篇文章中介绍的工具并通过私聊工具联系我。</p><p><a href="https://www.kwink.ml/posts/6410/">网络渗透系列：前章·跨越桎梏，畅享网络</a></p><h2 id="网站功能"><a href="#网站功能" class="headerlink" title="网站功能"></a>网站功能</h2><h3 id="导航栏"><a href="#导航栏" class="headerlink" title="导航栏"></a>导航栏</h3><div class="tabs" id="导航栏"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#导航栏-1"><i class="fas fa-magnifying-glass"></i>搜索</button></li><li class="tab"><button type="button" data-href="#导航栏-2"><i class="fas fa-home"></i>首页</button></li><li class="tab"><button type="button" data-href="#导航栏-3"><i class="fas fa-timeline"></i>时间轴</button></li><li class="tab"><button type="button" data-href="#导航栏-4"><i class="fas fa-tags"></i>标签</button></li><li class="tab"><button type="button" data-href="#导航栏-5"><i class="fas fa-folder-open"></i>分类</button></li><li class="tab"><button type="button" data-href="#导航栏-6"><i class="fas fa-list"></i>娱乐</button></li><li class="tab"><button type="button" data-href="#导航栏-7"><i class="fas fa-link"></i>友链</button></li><li class="tab"><button type="button" data-href="#导航栏-8"><i class="fas fa-train-subway"></i>开往</button></li><li class="tab"><button type="button" data-href="#导航栏-9"><i class="fas fa-heart"></i>关于</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="导航栏-1"><p><img src="https://s1.ax1x.com/2023/01/08/pSZd0de.png" alt="image-20230108150857741"></p><p>输入关键词，即可显示相关博客文章，找到所需文章，单击即可进入</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-2"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdRL8.png" alt="image-20230108151332210"></p><p>访问<a href="https://kwink.ml/">网站</a>默认显示首页,向下滑动滚轮即可访问更多内容</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-3"><p><img src="https://s1.ax1x.com/2023/01/08/pSZd6zt.png" alt="image-20230108151520435"></p><p>按文章时间顺序进行倒序排列</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-4"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdyRI.png" alt="image-20230108153541923"></p><p>单击标签可快速访问相关内容</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-5"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdgQP.png" alt="image-20230108153623956"></p><p>所见即所得</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-6"><div class="tabs" id="娱乐"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#娱乐-1"><i class="fas fa-music"></i>音乐</button></li><li class="tab"><button type="button" data-href="#娱乐-2"><i class="fas fa-images"></i>相册</button></li><li class="tab"><button type="button" data-href="#娱乐-3"><i class="fas fa-video"></i>影视</button></li><li class="tab"><button type="button" data-href="#娱乐-4"><i class="fa fa-gamepad"></i>游戏</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="娱乐-1"><p><img src="https://s1.ax1x.com/2023/01/08/pSZd2sf.png" alt="image-20230108153701839"></p><p>本页面可播放，但仅限于本页面播放</p><p>网站对应提供音乐悬浮窗（带歌词喔），可跨页播放（同一标签页）</p><p><img src="https://s1.ax1x.com/2023/01/08/pSZdfeS.png" alt="image-20230108183037882"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="娱乐-2"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdsJA.png" alt="image-20230108183124075"></p><p>一些作品和收藏</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="娱乐-3"><p>还没有做呢</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="娱乐-4"><p>出bug了，修复中</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-7"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdBIH.png" alt="image-20230108221816078"></p><p>友情链接，后面也会写篇友情链接申请的文章</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-8"><p><img src="https://s1.ax1x.com/2023/01/08/pSZdrid.png" alt="image-20230108221933588"></p><p>友情链接升级版</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="导航栏-9"><p>还没有内容</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h3 id="文章栏"><a href="#文章栏" class="headerlink" title="文章栏"></a>文章栏</h3>]]></content>
       
       
       <categories>
@@ -234,17 +234,6 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -256,9 +245,31 @@
     
     
     <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>游戏</title>
       <link href="/game/index.html"/>
       <url>/game/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -278,11 +289,11 @@
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-WctvOmXl" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-pooschLG" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
@@ -305,17 +316,6 @@
       <url>/Gallery/photography/index.html</url>
       
         <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-TKPmixtI" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-oubOyvXm" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
