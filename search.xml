@@ -223,33 +223,11 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<p>​</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>相册</title>
       <link href="/Gallery/index.html"/>
       <url>/Gallery/index.html</url>
       
         <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/Gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">摄影作品</div>  <p>关于OH MY GIRL的图片</p>  <a href='/Gallery/photography'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>游戏</title>
-      <link href="/game/index.html"/>
-      <url>/game/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="flink"><div class="flink-name">在线游戏</div><div class="flink-desc">精选</div> <div class="flink-list">          <div class="flink-list-item">            <a href="https://react-tetris.osrc.com/" title="俄罗斯方块" target="_blank">              <div class="flink-item-icon">                <img class="no-lightbox" src="https://s1.ax1x.com/2022/10/06/x1BDhT.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="俄罗斯方块" />              </div>              <div class="flink-item-name">俄罗斯方块</div>               <div class="flink-item-desc" title="还原经典">还原经典</div>            </a>          </div>          <div class="flink-list-item">            <a href="https://hextris.osrc.com/" title="Hextris" target="_blank">              <div class="flink-item-icon">                <img class="no-lightbox" src="https://s1.ax1x.com/2022/10/06/x1Bs9U.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Hextris" />              </div>              <div class="flink-item-name">Hextris</div>               <div class="flink-item-desc" title="挑战你的反应力，不要沉迷其中喔">挑战你的反应力，不要沉迷其中喔</div>            </a>          </div>          <div class="flink-list-item">            <a href="https://cube-game.osrc.com/" title="魔方" target="_blank">              <div class="flink-item-icon">                <img class="no-lightbox" src="https://s1.ax1x.com/2022/10/06/x1BBNV.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="魔方" />              </div>              <div class="flink-item-name">魔方</div>               <div class="flink-item-desc" title="买那么多魔方干啥，一个就够了">买那么多魔方干啥，一个就够了</div>            </a>          </div></div><div class="flink-name">Switch游戏</div><div class="flink-desc">Switch For PC模拟器</div> <div class="flink-list">          <div class="flink-list-item">            <a href="https://cowtransfer.com/s/2d6d0112f49143" title="Switch模拟器" target="_blank">              <div class="flink-item-icon">                <img class="no-lightbox" src="https://s1.ax1x.com/2022/10/06/x1WSPA.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Switch模拟器" />              </div>              <div class="flink-item-name">Switch模拟器</div>               <div class="flink-item-desc" title="强大的Switch模拟器，白嫖起来">强大的Switch模拟器，白嫖起来</div>            </a>          </div></div></div>]]></content>
       
     </entry>
     
@@ -267,20 +245,31 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>游戏</title>
+      <link href="/game/index.html"/>
+      <url>/game/index.html</url>
       
-        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-lyZZrpHF" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-JTbxBjvF" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<div class="flink"><div class="flink-name">在线游戏</div><div class="flink-desc">精选</div> <div class="flink-list">          <div class="flink-list-item">            <a href="https://react-tetris.osrc.com/" title="俄罗斯方块" target="_blank">              <div class="flink-item-icon">                <img class="no-lightbox" src="https://s1.ax1x.com/2022/10/06/x1BDhT.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="俄罗斯方块" />              </div>              <div class="flink-item-name">俄罗斯方块</div>               <div class="flink-item-desc" title="还原经典">还原经典</div>            </a>          </div>          <div class="flink-list-item">            <a href="https://hextris.osrc.com/" title="Hextris" target="_blank">              <div class="flink-item-icon">                <img class="no-lightbox" src="https://s1.ax1x.com/2022/10/06/x1Bs9U.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Hextris" />              </div>              <div class="flink-item-name">Hextris</div>               <div class="flink-item-desc" title="挑战你的反应力，不要沉迷其中喔">挑战你的反应力，不要沉迷其中喔</div>            </a>          </div>          <div class="flink-list-item">            <a href="https://cube-game.osrc.com/" title="魔方" target="_blank">              <div class="flink-item-icon">                <img class="no-lightbox" src="https://s1.ax1x.com/2022/10/06/x1BBNV.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="魔方" />              </div>              <div class="flink-item-name">魔方</div>               <div class="flink-item-desc" title="买那么多魔方干啥，一个就够了">买那么多魔方干啥，一个就够了</div>            </a>          </div></div><div class="flink-name">Switch游戏</div><div class="flink-desc">Switch For PC模拟器</div> <div class="flink-list">          <div class="flink-list-item">            <a href="https://cowtransfer.com/s/2d6d0112f49143" title="Switch模拟器" target="_blank">              <div class="flink-item-icon">                <img class="no-lightbox" src="https://s1.ax1x.com/2022/10/06/x1WSPA.png" onerror='this.onerror=null;this.src="/img/friend_404.gif"' alt="Switch模拟器" />              </div>              <div class="flink-item-name">Switch模拟器</div>               <div class="flink-item-desc" title="强大的Switch模拟器，白嫖起来">强大的Switch模拟器，白嫖起来</div>            </a>          </div></div></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<p>​</p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -300,11 +289,22 @@
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-CmyJlQsq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-IPgbOECp" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
