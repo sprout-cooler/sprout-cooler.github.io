@@ -6,7 +6,7 @@
   <link href="https://www.kwink.ml/atom.xml" rel="self"/>
   
   <link href="https://www.kwink.ml/"/>
-  <updated>2023-02-18T06:53:04.217Z</updated>
+  <updated>2023-02-18T13:50:54.484Z</updated>
   <id>https://www.kwink.ml/</id>
   
   <author>
@@ -17,24 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="https://www.kwink.ml/posts/0/"/>
-    <id>https://www.kwink.ml/posts/0/</id>
-    <published>2023-02-18T06:13:56.464Z</published>
-    <updated>2023-02-18T06:53:04.217Z</updated>
+    <title>废旧电脑搭建全能服务器系列(二)：部署ssh远程服务及docker环境</title>
+    <link href="https://www.kwink.ml/posts/97e9/"/>
+    <id>https://www.kwink.ml/posts/97e9/</id>
+    <published>2023-02-18T07:30:24.000Z</published>
+    <updated>2023-02-18T13:50:54.484Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;视频教程&quot;&gt;&lt;a href=&quot;#视频教程&quot; class=&quot;headerlink&quot; title=&quot;视频教程&quot;&gt;&lt;/a&gt;视频教程&lt;/h2&gt;&lt;p&gt;待更新&lt;/p&gt;
-&lt;h2 id=&quot;安装环境&quot;&gt;&lt;a href=&quot;#安装环境&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">ssh远程及docker环境的部署</summary>
     
     
     
+    <category term="源代码:科技殿堂" scheme="https://www.kwink.ml/categories/%E6%BA%90%E4%BB%A3%E7%A0%81-%E7%A7%91%E6%8A%80%E6%AE%BF%E5%A0%82/"/>
+    
+    
+    <category term="源代码:科技殿堂" scheme="https://www.kwink.ml/tags/%E6%BA%90%E4%BB%A3%E7%A0%81-%E7%A7%91%E6%8A%80%E6%AE%BF%E5%A0%82/"/>
+    
+    <category term="服务器搭建" scheme="https://www.kwink.ml/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="deepin" scheme="https://www.kwink.ml/tags/deepin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>废旧电脑搭建全能服务器系列（一）：重装系统deepin</title>
+    <link href="https://www.kwink.ml/posts/9dfc/"/>
+    <id>https://www.kwink.ml/posts/9dfc/</id>
+    <published>2023-02-18T07:01:24.000Z</published>
+    <updated>2023-02-18T07:01:45.684Z</updated>
+    
+    
+    <summary type="html">意识形态一直被看作中美之间最难以平和的隔膜。但是如果只是针对各自的整体价值观而言，两个国家却是惊人的相似。</summary>
+    
+    
+    
+    <category term="源代码:科技殿堂" scheme="https://www.kwink.ml/categories/%E6%BA%90%E4%BB%A3%E7%A0%81-%E7%A7%91%E6%8A%80%E6%AE%BF%E5%A0%82/"/>
+    
+    
+    <category term="源代码:科技殿堂" scheme="https://www.kwink.ml/tags/%E6%BA%90%E4%BB%A3%E7%A0%81-%E7%A7%91%E6%8A%80%E6%AE%BF%E5%A0%82/"/>
+    
+    <category term="服务器搭建" scheme="https://www.kwink.ml/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="deepin" scheme="https://www.kwink.ml/tags/deepin/"/>
     
   </entry>
   
@@ -87,7 +111,7 @@
     <link href="https://www.kwink.ml/posts/9572/"/>
     <id>https://www.kwink.ml/posts/9572/</id>
     <published>2022-10-21T05:15:24.000Z</published>
-    <updated>2023-01-07T10:50:32.489Z</updated>
+    <updated>2023-02-18T06:57:56.683Z</updated>
     
     
     <summary type="html">本篇主要说说怎么用hexo写博、发博和主题应用</summary>
@@ -110,7 +134,7 @@
     <link href="https://www.kwink.ml/posts/990b/"/>
     <id>https://www.kwink.ml/posts/990b/</id>
     <published>2022-10-19T11:52:24.000Z</published>
-    <updated>2023-01-08T06:39:46.379Z</updated>
+    <updated>2023-02-18T06:58:01.973Z</updated>
     
     
     <summary type="html">本篇主要来点稍微高级的域名配置</summary>
@@ -133,7 +157,7 @@
     <link href="https://www.kwink.ml/posts/d760/"/>
     <id>https://www.kwink.ml/posts/d760/</id>
     <published>2022-10-18T12:52:11.000Z</published>
-    <updated>2022-12-21T05:21:30.126Z</updated>
+    <updated>2023-02-18T06:57:45.739Z</updated>
     
     
     <summary type="html">本篇主要介绍如何搭建并将博客运行起来</summary>

@@ -2,7 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.kwink.ml/posts/0/</loc>
+    <loc>https://www.kwink.ml/posts/97e9/</loc>
+    
+    <lastmod>2023-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kwink.ml/posts/9dfc/</loc>
+    
+    <lastmod>2023-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kwink.ml/posts/990b/</loc>
+    
+    <lastmod>2023-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kwink.ml/posts/9572/</loc>
+    
+    <lastmod>2023-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kwink.ml/posts/d760/</loc>
     
     <lastmod>2023-02-18</lastmod>
     
@@ -47,24 +83,6 @@
   </url>
   
   <url>
-    <loc>https://www.kwink.ml/posts/990b/</loc>
-    
-    <lastmod>2023-01-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.kwink.ml/posts/9572/</loc>
-    
-    <lastmod>2023-01-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.kwink.ml/tags/index.html</loc>
     
     <lastmod>2023-01-07</lastmod>
@@ -77,15 +95,6 @@
     <loc>https://www.kwink.ml/categories/index.html</loc>
     
     <lastmod>2023-01-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.kwink.ml/posts/d760/</loc>
-    
-    <lastmod>2022-12-21</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -180,6 +189,20 @@
   </url>
   
   <url>
+    <loc>https://www.kwink.ml/tags/%E5%8E%9F%E5%88%9B%E4%B9%A6%E7%B1%8D/</loc>
+    <lastmod>2023-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kwink.ml/tags/%E7%A8%9A%E5%AB%A9%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
+    <lastmod>2023-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.kwink.ml/tags/%E7%BD%91%E7%BB%9C%E6%B8%97%E9%80%8F%E7%B3%BB%E5%88%97/</loc>
     <lastmod>2023-02-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -201,20 +224,6 @@
   </url>
   
   <url>
-    <loc>https://www.kwink.ml/tags/%E5%8E%9F%E5%88%9B%E4%B9%A6%E7%B1%8D/</loc>
-    <lastmod>2023-02-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.kwink.ml/tags/%E7%A8%9A%E5%AB%A9%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
-    <lastmod>2023-02-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.kwink.ml/tags/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2023-02-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -228,17 +237,31 @@
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>https://www.kwink.ml/categories/%E6%BA%90%E4%BB%A3%E7%A0%81-%E7%A7%91%E6%8A%80%E6%AE%BF%E5%A0%82/</loc>
+    <loc>https://www.kwink.ml/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2023-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
+    <loc>https://www.kwink.ml/tags/deepin/</loc>
+    <lastmod>2023-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
     <loc>https://www.kwink.ml/categories/%E7%A8%9A%E5%AB%A9%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
+    <lastmod>2023-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kwink.ml/categories/%E6%BA%90%E4%BB%A3%E7%A0%81-%E7%A7%91%E6%8A%80%E6%AE%BF%E5%A0%82/</loc>
     <lastmod>2023-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
