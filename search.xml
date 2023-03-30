@@ -34,8 +34,8 @@
     
     <entry>
       <title>废旧电脑搭建全能服务器系列（一）：重装系统deepin</title>
-      <link href="/posts/9dfc/"/>
-      <url>/posts/9dfc/</url>
+      <link href="/posts/5253/"/>
+      <url>/posts/5253/</url>
       
         <content type="html"><![CDATA[<h2 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h2><p>待更新</p><h2 id="安装环境"><a href="#安装环境" class="headerlink" title="安装环境"></a>安装环境</h2><p>请确保您的电脑满足以下的配置要求，如果您的电脑配置低于以下要求，将无法完美地体验深度操作系统：</p><ul><li>处理器：Intel Pentium IV 2GHz 或更快的处理器</li><li>内存：至少 2G 内存(RAM)，4G 以上是达到更好性能的推荐值</li><li>硬盘：至少 25 GB 的空闲空间</li></ul><p>您还需要一个U盘，然后在深度科技官方网站下载<a href="https://www.deepin.org/download">镜像文件</a>并制作启动盘。</p><h3 id="启动盘制作教程"><a href="#启动盘制作教程" class="headerlink" title="启动盘制作教程"></a>启动盘制作教程</h3><p>1.建议使用<a href="https://github.com/pbatard/rufus/releases/download/v3.21/rufus-3.21p.exe">rufus</a>进行制作；下载rufus；</p><p>2.然后查看你的<a href="https://so.csdn.net/so/search?q=%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA&spm=1001.2101.3001.7020">磁盘分区</a>类型（MBR或Gpt） 和   文件系统类型（NTFS或FA） </p><p><img src="https://img-blog.csdnimg.cn/66e42b674ca04f5ca4abac5d682c2bba.png" alt="img">  </p><p> <img src="https://img-blog.csdnimg.cn/ab7bf099b1a1464f943ca115098191e8.png" alt="img"></p><p>3.双击打开“<a href="https://so.csdn.net/so/search?q=rufus&spm=1001.2101.3001.7020">rufus</a>.exe” ，然后选择具体参数：</p><p><img src="https://img-blog.csdnimg.cn/ccd45251758d45e6a2fc93e6931858b1.png" alt="img"></p><p> 大概几分钟就能制作好U盘了（备注：我一般是先把U盘格式化，然后再来制作启动盘）</p><h2 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h2><p>重启电脑，反复按<a href="https://www.baidu.com/s?tn=68018901_27_oem_dg&ie=utf-8&wd=%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8%E5%BF%AB%E6%8D%B7%E9%94%AE">快速启动快捷键</a>；或者进入BIOS更改第一启动项为U盘。</p><p>台式机一般为 Delete 键、笔记本一般为 F2  或 F10 或 F12 键，即可进入 BIOS 设置界面（具体按键可自行百度确认）。</p><p>您只需在享受一杯咖啡的时间，便可完成系统的安装。</p><p>1、将深度操作系统光盘&#x2F;U盘插入电脑光驱中。</p><p>2、启动电脑，将光盘&#x2F;U盘设置为第一启动项。</p><p>3、进入安装界面，选择需要安装的语言。</p><p><img src="https://www.deepin.org/wp-content/uploads/2019/07/Screenshot_Deepin15.11_2019-07-31_110651.png" alt="img"></p><p>4、进入账户界面，输入系统用户名和密码。</p><p><img src="https://www.deepin.org/wp-content/uploads/2019/07/Screenshot_deepin15.11_2019-07-31_112717.png" alt="img"></p><p>5、点击 ****下一步****。</p><p>6、选择文件格式、挂载点、分配空间等。</p><p><img src="https://www.deepin.org/wp-content/uploads/2019/07/Screenshot_deepin15.11_2019-07-31_113448.png" alt="img"></p><table><thead><tr><th>挂载点</th><th>挂载点中文名</th><th>文件系统</th><th>大小</th></tr></thead><tbody><tr><td>&#x2F;</td><td>根分区（必选）</td><td>EXT4（推荐）</td><td>最少10G</td></tr><tr><td>&#x2F;home</td><td>家目录（推荐）</td><td>EXT4（推荐）</td><td>最少10G</td></tr><tr><td>swap</td><td>交换分区（可选）</td><td>不设置</td><td>4G内存以下分配2G，4G以上可不分配</td></tr></tbody></table><p>7、点击 ****安装****。</p><p>8、在弹出的确认安装窗口中，点击 ****确定****。</p><p>9、将开始自动安装深度操作系统。</p>]]></content>
       
@@ -281,17 +281,6 @@
     
     
     <entry>
-      <title>相册</title>
-      <link href="/Gallery/index.html"/>
-      <url>/Gallery/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/Gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">摄影作品</div>  <p>关于OH MY GIRL的图片</p>  <a href='/Gallery/photography'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -308,6 +297,17 @@
       <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>相册</title>
+      <link href="/Gallery/index.html"/>
+      <url>/Gallery/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/Gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">摄影作品</div>  <p>关于OH MY GIRL的图片</p>  <a href='/Gallery/photography'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -336,22 +336,22 @@
     
     
     <entry>
-      <title>影视</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-VDbawTEU" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-VUjTQzBK" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>影视</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
-        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-WrBAEuSj" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-kqMDcUPL" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
