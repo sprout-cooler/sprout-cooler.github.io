@@ -4,7 +4,7 @@
   <url>
     <loc>https://www.kwink.eu.org/posts/97e9/</loc>
     
-    <lastmod>2023-05-27</lastmod>
+    <lastmod>2023-08-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -198,6 +198,27 @@
   </url>
   
   <url>
+    <loc>https://www.kwink.eu.org/tags/%E7%BD%91%E7%BB%9C%E6%B8%97%E9%80%8F%E7%B3%BB%E5%88%97/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kwink.eu.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kwink.eu.org/tags/%E6%BA%90%E4%BB%A3%E7%A0%81-%E7%A7%91%E6%8A%80%E6%AE%BF%E5%A0%82/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.kwink.eu.org/tags/%E5%8E%9F%E5%88%9B%E4%B9%A6%E7%B1%8D/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -226,34 +247,6 @@
   </url>
   
   <url>
-    <loc>https://www.kwink.eu.org/tags/%E6%BA%90%E4%BB%A3%E7%A0%81-%E7%A7%91%E6%8A%80%E6%AE%BF%E5%A0%82/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.kwink.eu.org/tags/%E7%BD%91%E7%BB%9C%E6%B8%97%E9%80%8F%E7%B3%BB%E5%88%97/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.kwink.eu.org/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.kwink.eu.org/tags/%E4%BD%A0%E7%AC%91%E4%BA%86%EF%BC%8C%E4%B8%96%E7%95%8C%E9%83%BD%E4%BA%AE%E4%BA%86/</loc>
-    <lastmod>2023-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.kwink.eu.org/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -262,6 +255,13 @@
   
   <url>
     <loc>https://www.kwink.eu.org/tags/deepin/</loc>
+    <lastmod>2023-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.kwink.eu.org/tags/%E4%BD%A0%E7%AC%91%E4%BA%86%EF%BC%8C%E4%B8%96%E7%95%8C%E9%83%BD%E4%BA%AE%E4%BA%86/</loc>
     <lastmod>2023-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
