@@ -132,11 +132,11 @@
       
         <tags>
             
+            <tag> 源代码:科技殿堂 </tag>
+            
             <tag> 网络渗透系列 </tag>
             
             <tag> 网络安全 </tag>
-            
-            <tag> 源代码:科技殿堂 </tag>
             
         </tags>
       
@@ -161,11 +161,11 @@
       
         <tags>
             
-            <tag> 源代码:科技殿堂 </tag>
-            
             <tag> 网站搭建 </tag>
             
             <tag> Hexo+GitHub </tag>
+            
+            <tag> 源代码:科技殿堂 </tag>
             
         </tags>
       
@@ -190,11 +190,11 @@
       
         <tags>
             
-            <tag> 源代码:科技殿堂 </tag>
-            
             <tag> 网站搭建 </tag>
             
             <tag> Hexo+GitHub </tag>
+            
+            <tag> 源代码:科技殿堂 </tag>
             
         </tags>
       
@@ -219,11 +219,11 @@
       
         <tags>
             
-            <tag> 源代码:科技殿堂 </tag>
-            
             <tag> 网站搭建 </tag>
             
             <tag> Hexo+GitHub </tag>
+            
+            <tag> 源代码:科技殿堂 </tag>
             
         </tags>
       
@@ -248,11 +248,11 @@
       
         <tags>
             
-            <tag> 源代码:科技殿堂 </tag>
-            
             <tag> 网站搭建 </tag>
             
             <tag> Hexo+GitHub </tag>
+            
+            <tag> 源代码:科技殿堂 </tag>
             
         </tags>
       
@@ -348,17 +348,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<p>​</p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -381,11 +370,11 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-FUPyeLlM" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-bbciOpfO" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>老薛</strong></font></p>    <div id="aplayer-peTUQkbP" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="827836875" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<p>​</p>]]></content>
       
     </entry>
     
@@ -403,9 +392,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>影视</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -425,9 +414,20 @@
     
     
     <entry>
-      <title>影视</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p><!-- Simple example (songid, server, type)  -->    <div id="aplayer-GTqKPCji" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5132818145" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>缱绻梦乡，有音乐环绕耳畔</strong></font></p>    <div id="aplayer-CAeAYHPt" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1946057455" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div><p><font color=#0c74d6 size=3 face="黑体"><strong>老薛</strong></font></p>    <div id="aplayer-FppHabXj" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="827836875" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"    ></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
